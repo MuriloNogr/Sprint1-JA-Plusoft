@@ -3,17 +3,17 @@ package br.com.fiap.challenge.challengeja.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "empresas") // Especifica o nome da tabela no banco de dados
+@Table(name = "empresas")
 public class Empresa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id") // Especifica o nome da coluna no banco de dados
+    @Column(name = "id")
     private Long id;
 
-    @Column(name = "nome") // Especifica o nome da coluna no banco de dados
+    @Column(name = "nome")
     private String nome;
 
-    @Column(name = "descricao") // Especifica o nome da coluna no banco de dados
+    @Column(name = "descricao")
     private String descricao;
 
     public Empresa(Long novoId, String nome, String descricao) {
@@ -23,7 +23,7 @@ public class Empresa {
     }
 
     public Empresa() {
-        // Construtor vazio necessário para o JPA
+
     }
 
     public Long getId() {

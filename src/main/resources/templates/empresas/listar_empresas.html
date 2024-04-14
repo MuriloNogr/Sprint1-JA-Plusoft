@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listar Empresas</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
 <body>
+<img src="/images/8MQOTh-LogoMakr.png" alt="Logo Argos AI">
 <h1>Listagem de Empresas</h1>
-<ul>
-    <!-- Loop para exibir todas as empresas -->
-    <th:block th:each="empresa : ${empresas}">
-        <li>
-            <strong th:text="${empresa.nome}"></strong> -
-            <span th:text="${empresa.descricao}"></span>
-        </li>
-    </th:block>
-</ul>
+    <ul>
+
+        <th:block th:each="empresa : ${empresas}">
+            <li>
+                <strong th:text="${empresa.nome}"></strong> -
+                <span th:text="${empresa.descricao}"></span>
+            </li>
+        </th:block>
+    </ul>
 <a href="/empresas/cadastrar">Cadastrar Nova Empresa</a>
 </body>
 </html>
