@@ -7,13 +7,18 @@
 </head>
 <body>
 <h1>Cadastrar Nova Empresa</h1>
-<form action="/empresas/cadastrar" method="post">
+<form action="/empresas/cadastrar" method="post" th:object="${empresaDTO}">
     <label for="nome">Nome:</label><br>
-    <input type="text" id="nome" name="nome"><br>
+    <input type="text" id="nome" name="nome" th:field="*{nome}"><br>
+    <span th:if="${#fields.hasErrors('nome')}" th:errors="*{nome}"></span><br> <!-- Exibe mensagens de erro, se houver -->
+
     <label for="descricao">Descrição:</label><br>
-    <textarea id="descricao" name="descricao"></textarea><br><br>
+    <textarea id="descricao" name="descricao" th:field="*{descricao}"></textarea><br><br>
+    <span th:if="${#fields.hasErrors('descricao')}" th:errors="*{descricao}"></span><br> <!-- Exibe mensagens de erro, se houver -->
+
     <input type="submit" value="Cadastrar">
 </form>
+
 <a href="/empresas/listar">Voltar para Listagem de Empresas</a>
 </body>
 </html>
