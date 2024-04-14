@@ -69,6 +69,10 @@ Diagrama UML:
 
 ![Diagrama UML](https://github.com/MuriloNogr/Sprint1-JA-Plusoft/blob/main/Sprint1UML.jpg)
 
+Modelo do Banco de Dados:
+
+![Modelo do banco de dados](https://github.com/MuriloNogr/Sprint1-JA-Plusoft/blob/main/Relational_1.pdf.png?raw=true)
+
 Artefatos utilizados: 
 
 spring-boot-starter-thymeleaf: Fornece suporte ao Thymeleaf, um mecanismo de template para construir interfaces de usuário baseadas em HTML5.
