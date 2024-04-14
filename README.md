@@ -1,13 +1,24 @@
+ARGOS AI
 Nossa solução é um software que usa inteligência artificial para monitorar e analisar as movimentações financeiras da empresa, identificando riscos e tendências de falência.
 
 Ele emite alertas para a equipe responsável, que pode tomar medidas preventivas para evitar perdas financeiras e garantir a continuidade do negócio.
 
 Além disso, nosso software fornece relatórios com informações valiosas para a tomada de decisões estratégicas.
 
+Nossa Equipe: 
+550531 - Luis Fernando Menezes Zampar: Disruptives Architectures (IOT, IOB & AI) | Compliance, Quality Assurance & Tests
+
+551694 - Diogo Fagioli Bombonatti: DevOps Tools & Cloud Computing
+
+89162 - Murilo Nogueira: JAVA Advanced | Mobile Aplication Development
+
+550711 - Gabriel Galdino da Silva: Relational and Non-relational Databases | .NET
 
 SPRINT 1:
 
 Visão Geral
+Durante esta primeira sprint de desenvolvimento em JAVA, priorizamos a implementação do backend responsável pelo cadastro de empresas em nossa aplicação. Planejamos que esta aplicação, em fases posteriores, integrará funcionalidades de inteligência artificial para análise de riscos e consultoria especializada às empresas.
+
 O projeto ChallengeJA é uma aplicação web desenvolvida utilizando o framework Spring Boot. Ele fornece funcionalidades para cadastrar e listar empresas, utilizando um banco de dados para armazenar e recuperar as informações.
 
 Estrutura do Projeto
@@ -46,11 +57,16 @@ Configure as dependências do projeto utilizando o Maven.
 Execute a aplicação Spring Boot.
 Após seguir esses passos, a aplicação estará rodando localmente e você poderá acessá-la através do navegador web (http://localhost:8080) ou testá-la utilizando uma ferramenta de teste de API como o Insomnia ou o Postman.
 
-
 Conclusão
 A documentação acima fornece uma visão geral do projeto ChallengeJA, descrevendo sua estrutura, funcionalidades principais e como testar os endpoints. Com essa documentação, os desenvolvedores podem entender melhor o funcionamento da aplicação e começar a contribuir para o seu desenvolvimento.
 
-Diagrama UML
+Endpoints:
+http://localhost:8080 (Home)
+http://localhost:8080/empresas/listar
+http://localhost:8080/empresas/cadastrar
+
+Diagrama UML:
+
 ![Diagrama UML](https://github.com/MuriloNogr/Sprint1-JA-Plusoft/blob/main/Sprint1UML.jpg)
 
 Artefatos utilizados: 
