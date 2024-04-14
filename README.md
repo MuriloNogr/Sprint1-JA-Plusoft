@@ -1,3 +1,12 @@
+Nossa solução é um software que usa inteligência artificial para monitorar e analisar as movimentações financeiras da empresa, identificando riscos e tendências de falência.
+
+Ele emite alertas para a equipe responsável, que pode tomar medidas preventivas para evitar perdas financeiras e garantir a continuidade do negócio.
+
+Além disso, nosso software fornece relatórios com informações valiosas para a tomada de decisões estratégicas.
+
+
+SPRINT 1:
+
 Visão Geral
 O projeto ChallengeJA é uma aplicação web desenvolvida utilizando o framework Spring Boot. Ele fornece funcionalidades para cadastrar e listar empresas, utilizando um banco de dados para armazenar e recuperar as informações.
 
