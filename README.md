@@ -1,4 +1,47 @@
+Visão Geral
+O projeto ChallengeJA é uma aplicação web desenvolvida utilizando o framework Spring Boot. Ele fornece funcionalidades para cadastrar e listar empresas, utilizando um banco de dados para armazenar e recuperar as informações.
 
+Estrutura do Projeto
+O projeto está estruturado da seguinte forma:
+
+Controller: Contém as classes responsáveis por receber as requisições HTTP, processar as informações recebidas e retornar as respostas adequadas. Os controllers existentes são:
+
+EmpresaController: Responsável por lidar com as requisições relacionadas às operações de cadastro e listagem de empresas.
+HomeController: Responsável por lidar com as requisições relacionadas à página inicial da aplicação.
+Model: Contém as classes que representam as entidades do domínio da aplicação. Neste projeto, temos a classe Empresa, que representa uma empresa.
+
+Repository: Contém as interfaces responsáveis pela comunicação com o banco de dados. Neste projeto, temos o EmpresaRepository, que estende a interface JpaRepository do Spring Data JPA para fornecer métodos para salvar e recuperar empresas do banco de dados.
+
+View (Templates Thymeleaf): Contém os templates HTML utilizados para renderizar as páginas da aplicação. Os templates disponíveis são:
+
+cadastrar_empresas.html: Formulário para cadastrar uma nova empresa.
+listar_empresas.html: Página para listar todas as empresas cadastradas.
+Funcionalidades Principais
+Cadastro de Empresas: Através da página cadastrar_empresas.html, o usuário pode preencher um formulário com o nome e a descrição de uma nova empresa e enviar os dados para serem cadastrados no banco de dados.
+
+Listagem de Empresas: A página listar_empresas.html exibe uma lista com todas as empresas cadastradas no banco de dados. As informações são recuperadas do banco de dados através do EmpresaRepository e passadas para o template Thymeleaf para serem renderizadas na página.
+
+Testando os Endpoints
+Os endpoints podem ser testados utilizando ferramentas como o Insomnia ou o Postman. Abaixo estão os endpoints disponíveis na aplicação:
+
+GET /empresas/listar: Retorna a página de listagem de empresas.
+GET /empresas/cadastrar: Retorna a página de cadastro de empresas.
+POST /empresas/cadastrar: Recebe os dados de uma nova empresa e os cadastra no banco de dados.
+Executando o Projeto
+Para executar o projeto localmente, siga os seguintes passos:
+
+Certifique-se de ter o Java JDK instalado na sua máquina.
+Clone o repositório do projeto para o seu ambiente de desenvolvimento.
+Abra o projeto na sua IDE de preferência.
+Configure as dependências do projeto utilizando o Maven.
+Execute a aplicação Spring Boot.
+Após seguir esses passos, a aplicação estará rodando localmente e você poderá acessá-la através do navegador web (http://localhost:8080) ou testá-la utilizando uma ferramenta de teste de API como o Insomnia ou o Postman.
+
+
+Conclusão
+A documentação acima fornece uma visão geral do projeto ChallengeJA, descrevendo sua estrutura, funcionalidades principais e como testar os endpoints. Com essa documentação, os desenvolvedores podem entender melhor o funcionamento da aplicação e começar a contribuir para o seu desenvolvimento.
+
+Diagrama UML
 ![Diagrama UML](https://github.com/MuriloNogr/Sprint1-JA-Plusoft/blob/main/Sprint1UML.jpg)
 
 Artefatos utilizados: 
