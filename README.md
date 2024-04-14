@@ -1,3 +1,6 @@
+
+![Diagrama UML](https://github.com/MuriloNogr/Sprint1-JA-Plusoft/blob/main/Sprint1UML.jpg)
+
 Artefatos utilizados: 
 
 spring-boot-starter-thymeleaf: Fornece suporte ao Thymeleaf, um mecanismo de template para construir interfaces de usuário baseadas em HTML5.
