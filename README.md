@@ -19,12 +19,12 @@ Nossa Equipe:
 
 SPRINT 1:
 
-Visão Geral
+Visão Geral:
 Durante esta primeira sprint de desenvolvimento em JAVA, priorizamos a implementação do backend responsável pelo cadastro de empresas em nossa aplicação. Planejamos que esta aplicação, em fases posteriores, integrará funcionalidades de inteligência artificial para análise de riscos e consultoria especializada às empresas.
 
 O projeto ChallengeJA é uma aplicação web desenvolvida utilizando o framework Spring Boot. Ele fornece funcionalidades para cadastrar e listar empresas, utilizando um banco de dados para armazenar e recuperar as informações.
 
-Estrutura do Projeto
+Estrutura do Projeto:
 O projeto está estruturado da seguinte forma:
 
 Controller: Contém as classes responsáveis por receber as requisições HTTP, processar as informações recebidas e retornar as respostas adequadas. Os controllers existentes são:
@@ -60,7 +60,7 @@ Configure as dependências do projeto utilizando o Maven.
 Execute a aplicação Spring Boot.
 Após seguir esses passos, a aplicação estará rodando localmente e você poderá acessá-la através do navegador web (http://localhost:8080) ou testá-la utilizando uma ferramenta de teste de API como o Insomnia ou o Postman.
 
-Conclusão
+Conclusão:
 A documentação acima fornece uma visão geral do projeto ChallengeJA, descrevendo sua estrutura, funcionalidades principais e como testar os endpoints. Com essa documentação, os desenvolvedores podem entender melhor o funcionamento da aplicação e começar a contribuir para o seu desenvolvimento.
 
 Endpoints:
