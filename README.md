@@ -1,12 +1,12 @@
 ARGOS AI
 Nossa solução é um software que usa inteligência artificial para monitorar e analisar as movimentações financeiras da empresa, identificando riscos e tendências de falência.
 
-Vídeo:
-https://youtu.be/1yZ4cigPU2A?si=ltE3lBnqUVLI186n
-
 Ele emite alertas para a equipe responsável, que pode tomar medidas preventivas para evitar perdas financeiras e garantir a continuidade do negócio.
 
 Além disso, nosso software fornece relatórios com informações valiosas para a tomada de decisões estratégicas.
+
+Vídeo:
+https://youtu.be/1yZ4cigPU2A?si=ltE3lBnqUVLI186
 
 Nossa Equipe: 
 550531 - Luis Fernando Menezes Zampar: Disruptives Architectures (IOT, IOB & AI) | Compliance, Quality Assurance & Tests
